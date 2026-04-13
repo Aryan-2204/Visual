@@ -20,3 +20,10 @@ plt.show()
 
 #batsman is the dataset imported by batsman =pd.read_csv('data.csv'))
 
+plt.plot(batsman['index'],batsman['v.kohli'])
+plt.plot(batsman['index'],batsman['d.singh'])
+
+plt.title("Batsman's performance")
+plt.xlabel('season')
+plt.ylabel('runs scored')
+plt.show()
