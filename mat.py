@@ -10,6 +10,12 @@ plt.style.use('default')
 price=[10,20,30,40,50]
 years=[2010,2011,2012,2013,2014]
 plt.plot(years,price)
+plt.show()
 
 
+#plotting multiple plot
+plt.plot(batsman['index'],batsman['v.kohli'])
+plt.plot(batsman['index'],batsman['d.singh'])
+plt.show()
 
+#batsman is the dataset imported by batsman =pd.read_csv('data.csv'))
