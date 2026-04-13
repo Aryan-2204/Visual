@@ -19,3 +19,4 @@ plt.plot(batsman['index'],batsman['d.singh'])
 plt.show()
 
 #batsman is the dataset imported by batsman =pd.read_csv('data.csv'))
+
